@@ -1,0 +1,157 @@
+Running with optimizer sgd and with augmentation VerticalFlip
+Training Epoch: 1
+Running with optimizer sgd and with augmentation VerticalFlip
+Training Epoch: 1
+slurmstepd: error: *** JOB 27412399 ON gr043 CANCELLED AT 2022-11-27T22:37:32 ***
+The best accuracy for epoch 1 is 77.94830371567045%.
+Testing Epoch: 1
+Training Epoch: 2
+The best accuracy for epoch 2 is 96.875%.
+Testing Epoch: 2
+Training Epoch: 3
+The best accuracy for epoch 3 is 92.48788368336027%.
+Testing Epoch: 3
+Training Epoch: 4
+The best accuracy for epoch 4 is 100.0%.
+Testing Epoch: 4
+Training Epoch: 5
+The best accuracy for epoch 5 is 96.5625%.
+Testing Epoch: 5
+Training Epoch: 6
+The best accuracy for epoch 6 is 96.875%.
+Testing Epoch: 6
+Training Epoch: 7
+The best accuracy for epoch 7 is 96.875%.
+Testing Epoch: 7
+Training Epoch: 8
+The best accuracy for epoch 8 is 95.23424878836833%.
+Testing Epoch: 8
+Training Epoch: 9
+The best accuracy for epoch 9 is 100.0%.
+Testing Epoch: 9
+Training Epoch: 10
+The best accuracy for epoch 10 is 100.0%.
+Testing Epoch: 10
+Training Epoch: 11
+The best accuracy for epoch 11 is 99.04891304347827%.
+Testing Epoch: 11
+Training Epoch: 12
+The best accuracy for epoch 12 is 100.0%.
+Testing Epoch: 12
+Training Epoch: 13
+The best accuracy for epoch 13 is 100.0%.
+Testing Epoch: 13
+Training Epoch: 14
+The best accuracy for epoch 14 is 100.0%.
+Testing Epoch: 14
+Training Epoch: 15
+The best accuracy for epoch 15 is 100.0%.
+Testing Epoch: 15
+Training Epoch: 16
+The best accuracy for epoch 16 is 100.0%.
+Testing Epoch: 16
+Training Epoch: 17
+The best accuracy for epoch 17 is 100.0%.
+Testing Epoch: 17
+Training Epoch: 18
+The best accuracy for epoch 18 is 100.0%.
+Testing Epoch: 18
+Training Epoch: 19
+The best accuracy for epoch 19 is 100.0%.
+Testing Epoch: 19
+Training Epoch: 20
+The best accuracy for epoch 20 is 100.0%.
+Testing Epoch: 20
+Training Epoch: 21
+The best accuracy for epoch 21 is 100.0%.
+Testing Epoch: 21
+Training Epoch: 22
+The best accuracy for epoch 22 is 98.33984375%.
+Testing Epoch: 22
+Training Epoch: 23
+The best accuracy for epoch 23 is 100.0%.
+Testing Epoch: 23
+Training Epoch: 24
+The best accuracy for epoch 24 is 100.0%.
+Testing Epoch: 24
+Training Epoch: 25
+The best accuracy for epoch 25 is 100.0%.
+Testing Epoch: 25
+Training Epoch: 26
+The best accuracy for epoch 26 is 100.0%.
+Testing Epoch: 26
+Training Epoch: 27
+The best accuracy for epoch 27 is 100.0%.
+Testing Epoch: 27
+Training Epoch: 28
+The best accuracy for epoch 28 is 99.21875%.
+Testing Epoch: 28
+Training Epoch: 29
+The best accuracy for epoch 29 is 100.0%.
+Testing Epoch: 29
+Training Epoch: 30
+The best accuracy for epoch 30 is 100.0%.
+Testing Epoch: 30
+Training Epoch: 31
+The best accuracy for epoch 31 is 100.0%.
+Testing Epoch: 31
+Training Epoch: 32
+The best accuracy for epoch 32 is 100.0%.
+Testing Epoch: 32
+Training Epoch: 33
+The best accuracy for epoch 33 is 100.0%.
+Testing Epoch: 33
+Training Epoch: 34
+The best accuracy for epoch 34 is 99.375%.
+Testing Epoch: 34
+Training Epoch: 35
+The best accuracy for epoch 35 is 100.0%.
+Testing Epoch: 35
+Training Epoch: 36
+The best accuracy for epoch 36 is 100.0%.
+Testing Epoch: 36
+Training Epoch: 37
+The best accuracy for epoch 37 is 100.0%.
+Testing Epoch: 37
+Training Epoch: 38
+The best accuracy for epoch 38 is 100.0%.
+Testing Epoch: 38
+Training Epoch: 39
+The best accuracy for epoch 39 is 100.0%.
+Testing Epoch: 39
+Training Epoch: 40
+The best accuracy for epoch 40 is 100.0%.
+Testing Epoch: 40
+Training Epoch: 41
+The best accuracy for epoch 41 is 100.0%.
+Testing Epoch: 41
+Training Epoch: 42
+The best accuracy for epoch 42 is 100.0%.
+Testing Epoch: 42
+Training Epoch: 43
+The best accuracy for epoch 43 is 100.0%.
+Testing Epoch: 43
+Training Epoch: 44
+The best accuracy for epoch 44 is 100.0%.
+Testing Epoch: 44
+Training Epoch: 45
+The best accuracy for epoch 45 is 100.0%.
+Testing Epoch: 45
+Training Epoch: 46
+The best accuracy for epoch 46 is 99.55357142857143%.
+Testing Epoch: 46
+Training Epoch: 47
+The best accuracy for epoch 47 is 100.0%.
+Testing Epoch: 47
+Training Epoch: 48
+The best accuracy for epoch 48 is 99.51923076923077%.
+Testing Epoch: 48
+Training Epoch: 49
+The best accuracy for epoch 49 is 100.0%.
+Testing Epoch: 49
+Training Epoch: 50
+The best accuracy for epoch 50 is 100.0%.
+Testing Epoch: 50
+The top train accuracy is among 50 epochs is 100.0%.
+The top test accuracy is among 50 epochs is 100.0%.
+{'train_losses': [26.111051755025983, 20.34955609962344, 9.859597904607654, 5.724806466139853, 9.594191444572061, 25.023642279207706, 5.12752480385825, 9.218985049810726, 4.6847954438999295, 2.590953676495701, 1.7011489975266159, 3.6516711320728064, 2.776459496933967, 3.384208277333528, 5.783005595672876, 3.1794069735333323, 0.9586659664637409, 1.5400244034826756, 2.4196802056394517, 2.398952263407409, 2.5566717518959194, 2.7906245831400156, 3.0471932608634233, 3.034626817330718, 3.786829794291407, 1.9858667301014066, 1.8728999644517899, 1.4492669415194541, 1.6596245433902368, 2.973086240235716, 2.2738949125632644, 1.5483529162593186, 1.1656721759354696, 2.0317316772416234, 1.1002255179919302, 0.984430706477724, 1.5815103020286188, 1.8771101984893903, 1.2477510878816247, 1.0387216091621667, 1.233967586653307, 1.0164690584642813, 1.7658633237006143, 1.5365487379021943, 0.837037619901821, 1.5722396643832326, 1.001876140711829, 1.0319937070598826, 1.3474319295492023, 1.7495769888628274], 'top_train_accuracies': [77.94830371567045, 96.875, 92.48788368336027, 100.0, 96.5625, 96.875, 96.875, 95.23424878836833, 100.0, 100.0, 99.04891304347827, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 98.33984375, 100.0, 100.0, 100.0, 100.0, 100.0, 99.21875, 100.0, 100.0, 100.0, 100.0, 100.0, 99.375, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 100.0, 99.55357142857143, 100.0, 99.51923076923077, 100.0, 100.0], 'test_losses': [160.0388526916504, 89.33974838256836, 2.3729324527084827, 2.146126413717866, 6.056409537792206, 1.4134231954813004, 14.33316159248352, 0.5374468564987183, 0.05172728968318552, 124.55459785461426, 0.01901380089111626, 5.333328008651733, 5.009856700897217, 6.827829658985138, 41.63459825515747, 0.5301877520978451, 9.319608211517334, 0.03763025742955506, 0.39203042536973953, 0.03581906342878938, 17.60821771621704, 1.9388561397790909, 9.279409527778625, 0.8240564838051796, 3.853942781686783, 8.200785398483276, 0.6536976173520088, 1.9979478567838669, 0.056938055669888854, 6.633454382419586, 5.851158261299133, 0.0896591036580503, 0.6785137131810188, 0.10753274615854025, 0.07890560827217996, 0.09824996395036578, 0.37106121983379126, 0.05688301986083388, 1.2962999045848846, 0.027750498265959322, 0.30509721115231514, 0.07988620991818607, 0.05949021317064762, 0.06875494704581797, 0.09739756863564253, 0.6812124475836754, 0.03482972318306565, 0.04225259099621326, 8.960752129554749, 0.22720404993742704], 'top_test_accuracies': [56.25, 57.8125, 93.75, 90.57971014492753, 59.375, 93.75, 50.0, 100.0, 100.0, 51.041666666666664, 100.0, 51.5625, 65.625, 84.375, 34.375, 95.65217391304348, 65.625, 100.0, 100.0, 100.0, 53.125, 93.75, 50.0, 97.91666666666666, 84.375, 59.375, 100.0, 84.375, 100.0, 53.125, 51.5625, 98.95833333333334, 97.65625, 100.0, 100.0, 99.27536231884058, 100.0, 100.0, 93.75, 100.0, 99.27536231884058, 100.0, 100.0, 100.0, 98.95833333333334, 95.3125, 100.0, 100.0, 50.78125, 99.21875], 'train_times': [31.716936798, 30.888588738, 30.934566539, 31.04793736, 31.150358463, 31.166232818, 31.168807273, 31.169105924, 31.180489144, 31.16655487, 31.175353303, 31.18330479, 31.211268945, 31.18142739, 31.186959266, 31.173868063, 31.173243148, 31.167670005, 31.170242136, 31.169658267, 31.177865277, 31.196642533, 31.173363058, 31.163705496, 31.168257829, 31.155864809, 31.17151878, 31.167160199, 31.179150368, 31.176272985, 31.176744316, 31.179076538, 31.169373739, 31.158723202, 31.168949387, 31.162802693, 31.158507385, 31.16110023, 31.179216352, 31.17588227, 31.157485177, 31.160664957, 31.1700643, 31.162951919, 31.163178658, 31.157438827, 31.163827525, 31.162687192, 31.160526921, 31.172297888], 'test_times': [1.007633652, 1.007969786, 1.007578965, 1.009536395, 1.01100274, 1.011168229, 1.011562107, 1.011173725, 1.010628687, 1.010709427, 1.011211072, 1.010931814, 1.012030066, 1.011780962, 1.012340939, 1.01111276, 1.011429918, 1.012440849, 1.011631375, 1.010918332, 1.01090539, 1.011599581, 1.011082108, 1.011211153, 1.011249412, 1.010873541, 1.011454049, 1.01103305, 1.011317035, 1.011283716, 1.011237316, 1.011481609, 1.01101849, 1.011091418, 1.010859189, 1.011169913, 1.011186001, 1.011785636, 1.011905101, 1.011257308, 1.010834341, 1.010934822, 1.011615603, 1.011126558, 1.011176091, 1.011804215, 1.011250984, 1.01127523, 1.011381966, 1.01153434]}
