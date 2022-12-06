@@ -1,5 +1,7 @@
 import torch
 
+# The model is based on the website https://blog.paperspace.com/alexnet-pytorch/.
+
 class AlexNet1(torch.nn.Module):
     def __init__(self, input_channel, num_classes=2):
         super(AlexNet1, self).__init__()
