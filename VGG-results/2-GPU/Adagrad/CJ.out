@@ -1,0 +1,204 @@
+Running with optimizer adagrad and with augmentation ColorJitter
+Training Epoch: 1
+The training accuracy for epoch 1 is 50.72697899838449%.
+Testing Epoch: 1
+The testing accuracy for epoch 1 is 50.0%.
+Training Epoch: 2
+The training accuracy for epoch 2 is 51.69628432956381%.
+Testing Epoch: 2
+The testing accuracy for epoch 2 is 55.072463768115945%.
+Training Epoch: 3
+The training accuracy for epoch 3 is 51.77705977382876%.
+Testing Epoch: 3
+The testing accuracy for epoch 3 is 54.347826086956516%.
+Training Epoch: 4
+The training accuracy for epoch 4 is 51.77705977382876%.
+Testing Epoch: 4
+The testing accuracy for epoch 4 is 44.927536231884055%.
+Training Epoch: 5
+The training accuracy for epoch 5 is 48.06138933764136%.
+Testing Epoch: 5
+The testing accuracy for epoch 5 is 53.62318840579711%.
+Training Epoch: 6
+The training accuracy for epoch 6 is 50.88852988691438%.
+Testing Epoch: 6
+The testing accuracy for epoch 6 is 51.449275362318836%.
+Training Epoch: 7
+The training accuracy for epoch 7 is 50.96930533117933%.
+Testing Epoch: 7
+The testing accuracy for epoch 7 is 47.82608695652174%.
+Training Epoch: 8
+The training accuracy for epoch 8 is 53.31179321486268%.
+Testing Epoch: 8
+The testing accuracy for epoch 8 is 44.927536231884055%.
+Training Epoch: 9
+The training accuracy for epoch 9 is 49.676898222940224%.
+Testing Epoch: 9
+The testing accuracy for epoch 9 is 47.82608695652174%.
+Training Epoch: 10
+The training accuracy for epoch 10 is 51.615508885298865%.
+Testing Epoch: 10
+The testing accuracy for epoch 10 is 52.17391304347826%.
+Training Epoch: 11
+The training accuracy for epoch 11 is 52.26171243941842%.
+Testing Epoch: 11
+The testing accuracy for epoch 11 is 47.82608695652174%.
+Training Epoch: 12
+The training accuracy for epoch 12 is 51.8578352180937%.
+Testing Epoch: 12
+The testing accuracy for epoch 12 is 55.79710144927537%.
+Training Epoch: 13
+The training accuracy for epoch 13 is 50.56542810985461%.
+Testing Epoch: 13
+The testing accuracy for epoch 13 is 45.65217391304348%.
+Training Epoch: 14
+The training accuracy for epoch 14 is 50.40387722132472%.
+Testing Epoch: 14
+The testing accuracy for epoch 14 is 50.0%.
+Training Epoch: 15
+The training accuracy for epoch 15 is 52.34248788368336%.
+Testing Epoch: 15
+The testing accuracy for epoch 15 is 48.55072463768116%.
+Training Epoch: 16
+The training accuracy for epoch 16 is 52.019386106623585%.
+Testing Epoch: 16
+The testing accuracy for epoch 16 is 50.0%.
+Training Epoch: 17
+The training accuracy for epoch 17 is 54.684975767366716%.
+Testing Epoch: 17
+The testing accuracy for epoch 17 is 50.72463768115942%.
+Training Epoch: 18
+The training accuracy for epoch 18 is 51.8578352180937%.
+Testing Epoch: 18
+The testing accuracy for epoch 18 is 53.62318840579711%.
+Training Epoch: 19
+The training accuracy for epoch 19 is 52.827140549273025%.
+Testing Epoch: 19
+The testing accuracy for epoch 19 is 50.0%.
+Training Epoch: 20
+The training accuracy for epoch 20 is 49.03069466882068%.
+Testing Epoch: 20
+The testing accuracy for epoch 20 is 55.072463768115945%.
+Training Epoch: 21
+The training accuracy for epoch 21 is 49.75767366720517%.
+Testing Epoch: 21
+The testing accuracy for epoch 21 is 50.72463768115942%.
+Training Epoch: 22
+The training accuracy for epoch 22 is 49.515347334410336%.
+Testing Epoch: 22
+The testing accuracy for epoch 22 is 52.89855072463768%.
+Training Epoch: 23
+The training accuracy for epoch 23 is 52.4232633279483%.
+Testing Epoch: 23
+The testing accuracy for epoch 23 is 47.10144927536232%.
+Training Epoch: 24
+The training accuracy for epoch 24 is 52.4232633279483%.
+Testing Epoch: 24
+The testing accuracy for epoch 24 is 52.89855072463768%.
+Training Epoch: 25
+The training accuracy for epoch 25 is 52.34248788368336%.
+Testing Epoch: 25
+The testing accuracy for epoch 25 is 51.449275362318836%.
+Training Epoch: 26
+The training accuracy for epoch 26 is 50.88852988691438%.
+Testing Epoch: 26
+The testing accuracy for epoch 26 is 54.347826086956516%.
+Training Epoch: 27
+The training accuracy for epoch 27 is 52.90791599353797%.
+Testing Epoch: 27
+The testing accuracy for epoch 27 is 57.971014492753625%.
+Training Epoch: 28
+The training accuracy for epoch 28 is 53.06946688206785%.
+Testing Epoch: 28
+The testing accuracy for epoch 28 is 52.17391304347826%.
+Training Epoch: 29
+The training accuracy for epoch 29 is 51.453957996768985%.
+Testing Epoch: 29
+The testing accuracy for epoch 29 is 50.72463768115942%.
+Training Epoch: 30
+The training accuracy for epoch 30 is 51.13085621970921%.
+Testing Epoch: 30
+The testing accuracy for epoch 30 is 50.72463768115942%.
+Training Epoch: 31
+The training accuracy for epoch 31 is 49.11147011308562%.
+Testing Epoch: 31
+The testing accuracy for epoch 31 is 56.52173913043478%.
+Training Epoch: 32
+The training accuracy for epoch 32 is 49.43457189014539%.
+Testing Epoch: 32
+The testing accuracy for epoch 32 is 50.72463768115942%.
+Training Epoch: 33
+The training accuracy for epoch 33 is 54.281098546042%.
+Testing Epoch: 33
+The testing accuracy for epoch 33 is 48.55072463768116%.
+Training Epoch: 34
+The training accuracy for epoch 34 is 51.37318255250404%.
+Testing Epoch: 34
+The testing accuracy for epoch 34 is 59.42028985507246%.
+Training Epoch: 35
+The training accuracy for epoch 35 is 51.93861066235864%.
+Testing Epoch: 35
+The testing accuracy for epoch 35 is 57.2463768115942%.
+Training Epoch: 36
+The training accuracy for epoch 36 is 50.0%.
+Testing Epoch: 36
+The testing accuracy for epoch 36 is 51.449275362318836%.
+Training Epoch: 37
+The training accuracy for epoch 37 is 53.47334410339257%.
+Testing Epoch: 37
+The testing accuracy for epoch 37 is 47.82608695652174%.
+Training Epoch: 38
+The training accuracy for epoch 38 is 52.18093699515347%.
+Testing Epoch: 38
+The testing accuracy for epoch 38 is 50.72463768115942%.
+Training Epoch: 39
+The training accuracy for epoch 39 is 50.96930533117933%.
+Testing Epoch: 39
+The testing accuracy for epoch 39 is 47.10144927536232%.
+Training Epoch: 40
+The training accuracy for epoch 40 is 50.323101777059776%.
+Testing Epoch: 40
+The testing accuracy for epoch 40 is 52.89855072463768%.
+Training Epoch: 41
+The training accuracy for epoch 41 is 53.79644588045234%.
+Testing Epoch: 41
+The testing accuracy for epoch 41 is 52.89855072463768%.
+Training Epoch: 42
+The training accuracy for epoch 42 is 51.29240710823909%.
+Testing Epoch: 42
+The testing accuracy for epoch 42 is 58.69565217391305%.
+Training Epoch: 43
+The training accuracy for epoch 43 is 51.53473344103393%.
+Testing Epoch: 43
+The testing accuracy for epoch 43 is 55.79710144927537%.
+Training Epoch: 44
+The training accuracy for epoch 44 is 50.64620355411955%.
+Testing Epoch: 44
+The testing accuracy for epoch 44 is 49.275362318840585%.
+Training Epoch: 45
+The training accuracy for epoch 45 is 53.06946688206785%.
+Testing Epoch: 45
+The testing accuracy for epoch 45 is 50.0%.
+Training Epoch: 46
+The training accuracy for epoch 46 is 52.58481421647819%.
+Testing Epoch: 46
+The testing accuracy for epoch 46 is 55.072463768115945%.
+Training Epoch: 47
+The training accuracy for epoch 47 is 51.69628432956381%.
+Testing Epoch: 47
+The testing accuracy for epoch 47 is 52.89855072463768%.
+Training Epoch: 48
+The training accuracy for epoch 48 is 52.4232633279483%.
+Testing Epoch: 48
+The testing accuracy for epoch 48 is 49.275362318840585%.
+Training Epoch: 49
+The training accuracy for epoch 49 is 51.050080775444265%.
+Testing Epoch: 49
+The testing accuracy for epoch 49 is 50.72463768115942%.
+Training Epoch: 50
+The training accuracy for epoch 50 is 52.58481421647819%.
+Testing Epoch: 50
+The testing accuracy for epoch 50 is 50.0%.
+The top train accuracy is among 50 epochs is 54.684975767366716%.
+The top test accuracy is among 50 epochs is 51.69628432956381%.
+{'train_losses': [4015214.440459013, 9525.15288734436, 3164.5333380699158, 2994.848717689514, 1497.632956981659, 739.8519549369812, 302.77641570568085, 488.9191310405731, 628.4813213348389, 163.93980127573013, 101.20267724990845, 107.80094540119171, 170.9395346045494, 76.78041779994965, 64.8484520316124, 255.30517160892487, 150.64898890256882, 118.81972086429596, 51.41498339176178, 382.4478649497032, 39.60953563451767, 97.9478126168251, 147.64761239290237, 880.0271787047386, 36.861554741859436, 174.3142808675766, 36.09741622209549, 30.73095005750656, 34.636157751083374, 68.177021920681, 57.12606531381607, 82.67635065317154, 825.3139186501503, 773.7191876769066, 36.29236727952957, 33.35880506038666, 47.0281383395195, 35.99300754070282, 138.79081797599792, 30.04099541902542, 29.971291720867157, 29.926394045352936, 31.652435839176178, 39.66200006008148, 29.66985720396042, 32.42180407047272, 30.102293074131012, 30.008580327033997, 36.4200713634491, 29.836960792541504], 'train_accuracies': [50.72697899838449, 51.69628432956381, 51.77705977382876, 51.77705977382876, 48.06138933764136, 50.88852988691438, 50.96930533117933, 53.31179321486268, 49.676898222940224, 51.615508885298865, 52.26171243941842, 51.8578352180937, 50.56542810985461, 50.40387722132472, 52.34248788368336, 52.019386106623585, 54.684975767366716, 51.8578352180937, 52.827140549273025, 49.03069466882068, 49.75767366720517, 49.515347334410336, 52.4232633279483, 52.4232633279483, 52.34248788368336, 50.88852988691438, 52.90791599353797, 53.06946688206785, 51.453957996768985, 51.13085621970921, 49.11147011308562, 49.43457189014539, 54.281098546042, 51.37318255250404, 51.93861066235864, 50.0, 53.47334410339257, 52.18093699515347, 50.96930533117933, 50.323101777059776, 53.79644588045234, 51.29240710823909, 51.53473344103393, 50.64620355411955, 53.06946688206785, 52.58481421647819, 51.69628432956381, 52.4232633279483, 51.050080775444265, 52.58481421647819], 'test_losses': [8496.772521972656, 100.26776790618896, 172.6669807434082, 107.42494213581085, 89.7095890045166, 12.717790842056274, 27.813213348388672, 52.413498640060425, 17.177001237869263, 5.780055403709412, 10.502948522567749, 16.35570526123047, 15.683850049972534, 9.870061755180359, 10.082531929016113, 12.330625772476196, 6.32817268371582, 11.046925067901611, 6.314269125461578, 4.299689471721649, 4.100947201251984, 3.8195230960845947, 4.274968504905701, 3.6968038082122803, 3.537229835987091, 3.5146064162254333, 3.466648519039154, 3.773237407207489, 4.30063396692276, 3.888466536998749, 3.324123740196228, 3.92962509393692, 4.436720788478851, 3.5438172817230225, 3.362779378890991, 4.110462665557861, 3.8556982278823853, 3.5272148847579956, 3.763504981994629, 4.8080936670303345, 3.563322067260742, 3.4515511989593506, 4.66523152589798, 3.595345437526703, 3.5449612140655518, 3.5071552991867065, 3.6484891176223755, 3.8496501445770264, 3.874576210975647, 3.846650242805481], 'test_accuracies': [50.0, 55.072463768115945, 54.347826086956516, 44.927536231884055, 53.62318840579711, 51.449275362318836, 47.82608695652174, 44.927536231884055, 47.82608695652174, 52.17391304347826, 47.82608695652174, 55.79710144927537, 45.65217391304348, 50.0, 48.55072463768116, 50.0, 50.72463768115942, 53.62318840579711, 50.0, 55.072463768115945, 50.72463768115942, 52.89855072463768, 47.10144927536232, 52.89855072463768, 51.449275362318836, 54.347826086956516, 57.971014492753625, 52.17391304347826, 50.72463768115942, 50.72463768115942, 56.52173913043478, 50.72463768115942, 48.55072463768116, 59.42028985507246, 57.2463768115942, 51.449275362318836, 47.82608695652174, 50.72463768115942, 47.10144927536232, 52.89855072463768, 52.89855072463768, 58.69565217391305, 55.79710144927537, 49.275362318840585, 50.0, 55.072463768115945, 52.89855072463768, 49.275362318840585, 50.72463768115942, 50.0]}
