@@ -8,11 +8,13 @@ import matplotlib.pyplot as plt
 import argparse
 from models.Alexnet2 import alexnet
 from train import train, test
+import torch.backends.cudnn as cudnn
 
 def main():
 
     parser = argparse.ArgumentParser()
     parser.add_argument("--optimizer", default="sgd", type=str, help="type of optimizer to use for training")
+    parser.add_argument("--num_gpu", default=1, type=int, help="number of GPUs used for training")
     args = parser.parse_args()
 
     # Create transforms
@@ -32,8 +34,8 @@ def main():
     test_images_2 = ImageFolder(root= "./data/test", transform=test_transform_2)
 
     # Create data loader
-    trainDataLoader_2 = torch.utils.data.DataLoader(train_images_2,batch_size=128,num_workers=2, shuffle=True)
-    testDataLoader_2 = torch.utils.data.DataLoader(test_images_2,batch_size=100,num_workers=2, shuffle=False)
+    trainDataLoader_2 = torch.utils.data.DataLoader(train_images_2,batch_size=32,num_workers=2, shuffle=True)
+    testDataLoader_2 = torch.utils.data.DataLoader(test_images_2,batch_size=32,num_workers=2, shuffle=False)
 
     # Set cuda
     device = "cuda" if torch.cuda.is_available() else "cpu"
@@ -47,6 +49,10 @@ def main():
         optimizer = torch.optim.Adagrad(model.parameters(), lr=0.1, weight_decay=5e-4)
     elif args.optimizer == "Adam":
         optimizer = torch.optim.Adam(model.parameters(), lr=0.1, weight_decay=5e-4)
+
+    if device == "cuda":
+        model = torch.nn.DataParallel(model, device_ids=list(range(args.num_gpu)))
+        cudnn.benchmark = True
     
     # Start training
     train_loss_history = []
@@ -86,7 +92,7 @@ def main():
     plt.ylabel('Loss')
     plt.grid(True)
     plt.legend()
-    plt.savefig("./model_plots/aug2_%s_loss.png" % args.optimizer)
+    plt.savefig("./2GPU_plots/aug2_%s_loss.png" % args.optimizer)
 
     # Plot train and test accuracies
     plt.figure(2)
@@ -96,7 +102,7 @@ def main():
     plt.ylabel('Percentage')
     plt.grid(True)
     plt.legend()
-    plt.savefig("./model_plots/aug2_%s_accuracy.png" % args.optimizer)
+    plt.savefig("./2GPU_plots/aug2_%s_accuracy.png" % args.optimizer)
 
 if __name__ == "__main__":
     main()
