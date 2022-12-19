@@ -6,7 +6,7 @@ Files for Alexnet are all stored in the folder named "Alexnet". Four python file
 * --optimizer: specify which optimizer (SGD, Adagrad, Adam) to use for training. Default: sgd
 * --num_gpu: specify the number of GPUs to run
 
-Here are the examples to run four Alexnet python files:
+Here are the examples to run four Alexnet python files:<br>
 `python augmentation1.py --optimizer SGD --num_gpu 2`<br>
 `python augmentation2.py --optimizer Adagrad --num_gpu 2`<br>
 `python augmentation3.py --optimizer Adam --num_gpu 2`<br>
