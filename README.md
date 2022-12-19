@@ -163,7 +163,7 @@ Random rotation & VerticalFlip train/test accuracy and loss:<br>
 ![alt text](./Alexnet/2GPU_plots/aug2_sgd_accuracy.png)
 ![alt text](./Alexnet/2GPU_plots/aug2_sgd_loss.png)
 
-Augmentation Center Crop has the best performance of Alexnet with SGD.
+Augmentation Color Jitter has the best performance of Alexnet with SGD.
 
 ### Results – Alexnet with Adagrad
 HorizontalFlip train/test accuracy and loss:<br>
