@@ -1,10 +1,16 @@
 # HPML-Final-Proj
+This project trains three Deep Learning models with four data augmentation methods and three optimizers. For each model, we will determine the best pair of augmentation and optimizer, and finally we will find the model with best performance based on the results we obtained.
 
 ## Run AlexNet code in HPC
-A sample sbatch file is given for each AlexNet model code in the folder named "Alexnet". Simply changing the string after "--optimizer" and change the number after "--gpu"can make the program running with different optimizers and 2 GPUs. The results of model running with 1 GPU are also given. Four model code programs are written for AlexNet and each of which uses different data augmentation techniques.
+Four python files are written for each augmentations. Below are arguments that can be passed to the files:
+* --optimizer: specify which optimizer (SGD, Adagrad, Adam) to use for training. Default: sgd
+* --num_gpu: specify the number of GPUs to run
+
+Here are the examples to run four Alexnet python files:
+''
 
 ## Run GoogleNet and VGG code in HPC
-File run-googlenet-VGG.py is the gateway to trian and test with GoogleNet and VGG16. Below are arguments that can be passes to the file:
+File run-googlenet-VGG.py is the gateway to trian and test with GoogleNet and VGG16. Below are arguments that can be passed to the file:
 * --optimier: specify which optimizer, sgd, adagrad, or adam, to use. Default: sgd
 * --cuda: If passed, the job will be trained with GPU. 
 * --aug: specify which augmentation method to use. Available options: HorizontalFlip, CenterCrop, ColorJitter, and VerticalFlip. Default: HorizontalFlip
