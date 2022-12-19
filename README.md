@@ -1,8 +1,7 @@
 # HPML-Final-Proj
 
 ## Run AlexNet code in HPC
-A sample sbatch file is given for each AlexNet model code in the folder named "Alexnet". Simply changing the string after "--optimizer" can make the program running with 
-different optimizers. Four model code programs are written for AlexNet and each of which uses different data augmentation techniques.
+A sample sbatch file is given for each AlexNet model code in the folder named "Alexnet". Simply changing the string after "--optimizer" and change the number after "--gpu"can make the program running with different optimizers and 2 GPUs. The results of model running with 1 GPU are also given. Four model code programs are written for AlexNet and each of which uses different data augmentation techniques.
 
 ## Run GoogleNet and VGG code in HPC
 File run-googlenet-VGG.py is the gateway to trian and test with GoogleNet and VGG16. Below are arguments that can be passes to the file:
@@ -17,3 +16,4 @@ Here is and example of running run-googlenet-VGG.py: <br>
 `python3 run-googlenet-VGG.py --cuda --aug=ColorJitter --model=vgg --numGPUs=2 --batchSize=32 --optimizer=sgd`<br>
 It means using VGG16 network with Color Jitter augmentation and SGD optimizer to train and test. The job will be run with training batch size 32 and on 2 GPUs. After training and testing, it will plot the training and testing accuracies/losses and save them in two pngs. For example, HorizontalFlip__train_test_accuracies_sgd_2_vgg.png means the accuracy plot using VGG16 network with Horizontal Flip and SGD on 2 GPUs.
 
+## Results
