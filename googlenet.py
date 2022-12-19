@@ -4,6 +4,7 @@
     Going Deeper with Convolutions
     https://arxiv.org/abs/1409.4842v1
 """
+# Code referenced from # https://github.com/kuangliu/pytorch-cifar
 
 import torch
 import torch.nn as nn
