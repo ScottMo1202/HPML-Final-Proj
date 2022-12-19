@@ -88,12 +88,117 @@ Random rotation & VerticalFlip train/test accuracy and loss:<br>
    
 Augmentation CenterCrop & Grayscale has the best performance of GoogLeNet with Adam.
 
+## VGG16 Results
+### Results – VGG with SGD
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/SGD/HorizontalFlip_train_test_accuracies_sgd_2_vgg.png)
+![alt text](./VGG-results/2-GPU/SGD/HorizontalFlip_train_test_losses_sgd_2_vgg.png)
+
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/SGD/CenterCrop_train_test_accuracies_sgd_2_vgg.png)
+![alt text](./VGG-results/2-GPU/SGD/CenterCrop_train_test_losses_sgd_2_vgg.png)
+
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/SGD/ColorJitter_train_test_accuracies_sgd_2_vgg.png)
+![alt text](./VGG-results/2-GPU/SGD/ColorJitter_train_test_losses_sgd_2_vgg.png)
+   
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/SGD/VerticalFlip_train_test_accuracies_sgd_2_vgg.png)
+![alt text](./VGG-results/2-GPU/SGD/VerticalFlip_train_test_losses_sgd_2_vgg.png)
+
+Augmentation CenterCrop has the best performance of VGG with SGD.
+
+### Results – VGG with Adagrad
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adagrad/HorizontalFlip_train_test_accuracies_adagrad_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adagrad/HorizontalFlip_train_test_losses_adagrad_2_vgg.png)
+
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adagrad/CenterCrop_train_test_accuracies_adagrad_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adagrad/CenterCrop_train_test_losses_adagrad_2_vgg.png)
+
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adagrad/ColorJitter_train_test_accuracies_adagrad_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adagrad/ColorJitter_train_test_losses_adagrad_2_vgg.png)
+   
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adagrad/VerticalFlip_train_test_accuracies_adagrad_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adagrad/VerticalFlip_train_test_losses_adagrad_2_vgg.png)
+
+Augmentation CenterCrop has the best performance of VGG with Adagrad.
+
+### Results – VGG with Adam
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adam/HorizontalFlip_train_test_accuracies_adam_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adam/HorizontalFlip_train_test_losses_adam_2_vgg.png)
+
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adam/CenterCrop_train_test_accuracies_adam_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adam/CenterCrop_train_test_losses_adam_2_vgg.png)
+
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adam/ColorJitter_train_test_accuracies_adam_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adam/ColorJitter_train_test_losses_adam_2_vgg.png)
+   
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./VGG-results/2-GPU/Adam/VerticalFlip_train_test_accuracies_adam_2_vgg.png)
+![alt text](./VGG-results/2-GPU/Adam/VerticalFlip_train_test_losses_adam_2_vgg.png)
+
+Augmentation VerticalFlip has the best performance of VGG with Adam.
 
 ### Results – Alexnet with SGD
-HorizontalFlip train/test accuracy and loss:
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug1_sgd_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug1_sgd_loss.png)
 
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_loss.png)
 
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_loss.png)
 
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_sgd_loss.png)
 
+Augmentation Center Crop has the best performance of Alexnet with SGD.
 
+### Results – Alexnet with Adagrad
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug1_Adagrad_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug1_Adagrad_loss.png)
 
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_loss.png)
+
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_loss.png)
+
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adagrad_loss.png)
+
+Augmentation Color Jitter has the best performance of Alexnet with Adagrad.
+
+### Results – Alexnet with Adam
+HorizontalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug1_Adam_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug1_Adam_loss.png)
+
+CenterCrop & Grayscale train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_loss.png)
+
+ColorJitter & Pad train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_loss.png)
+
+Random rotation & VerticalFlip train/test accuracy and loss:<br>
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_accuracy.png)
+![alt text](./Alexnet/2GPU_plots/aug2_Adam_loss.png)
+
+Augmentation Color Jitter has the best performance of Alexnet with Adam.
