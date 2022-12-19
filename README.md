@@ -2,12 +2,17 @@
 This project trains three Deep Learning models with four data augmentation methods and three optimizers. For each model, we will determine the best pair of augmentation and optimizer, and finally we will find the model with best performance based on the results we obtained.
 
 ## Run AlexNet code in HPC
-Four python files are written for each augmentations. Below are arguments that can be passed to the files:
+Files for Alexnet are all stored in the folder named "Alexnet". Four python files are written for each augmentations. Below are arguments that can be passed to the files:
 * --optimizer: specify which optimizer (SGD, Adagrad, Adam) to use for training. Default: sgd
 * --num_gpu: specify the number of GPUs to run
 
-Here are the examples to run four Alexnet python files:
-''
+Here are the examples to run four Alexnet python files:<br>
+`python augmentation1.py --optimizer SGD --num_gpu 2`<br>
+`python augmentation2.py --optimizer Adagrad --num_gpu 2`<br>
+`python augmentation3.py --optimizer Adam --num_gpu 2`<br>
+`python augmentation4.py --optimizer SGD --num_gpu 2`<br>
+
+These mean that run Alexnet model with augmentation 1 (horizontal flip) and SGD; run Alexnet with augmentation 2 (Center Crop & Grayscale) and Adagrad; run Alexnet with augmentation 3 (Color Jitter & Pad) with Adam; and run Alexnet with augmentation 4 (Random rotation and Random Vertical Flip). These jobs are all done with batch size 32, 50 epochs, and 2 GPUs in NYU Greene. After finishing training and testing, two plots containing training/testing accuracy and training/testing losses will be returned and saved to the folder 2GPU_plots. For example, aug1_Adagrad_accuracy.png means the accuracy plot of Alexnet running with augmentation 1 and Adagrad.
 
 ## Run GoogleNet and VGG code in HPC
 File run-googlenet-VGG.py is the gateway to trian and test with GoogleNet and VGG16. Below are arguments that can be passed to the file:
