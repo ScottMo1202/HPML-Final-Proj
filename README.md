@@ -201,4 +201,9 @@ Random rotation & VerticalFlip train/test accuracy and loss:<br>
 ![alt text](./Alexnet/2GPU_plots/aug2_Adam_accuracy.png)
 ![alt text](./Alexnet/2GPU_plots/aug2_Adam_loss.png)
 
-Augmentation Color Jitter has the best performance of Alexnet with Adam.
+Augmentation Color Jitter has the best performance of Alexnet with Adam.<br>
+
+## Final Conclusion:
+Best Model – Alexnet<br>
+Best Augmentation – Color Jitter & Pads<br>
+Best Optimizer – Adagrad<br>
