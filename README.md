@@ -144,8 +144,9 @@ Random rotation & VerticalFlip train/test accuracy and loss:<br>
 ![alt text](./VGG-results/2-GPU/Adam/VerticalFlip_train_test_accuracies_adam_2_vgg.png)
 ![alt text](./VGG-results/2-GPU/Adam/VerticalFlip_train_test_losses_adam_2_vgg.png)
 
-Augmentation VerticalFlip has the best performance of VGG with Adam.
+Augmentation Center Crop has the best performance of VGG with Adam.
 
+## Alexnet Results
 ### Results – Alexnet with SGD
 HorizontalFlip train/test accuracy and loss:<br>
 ![alt text](./Alexnet/2GPU_plots/aug1_sgd_accuracy.png)
